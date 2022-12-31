@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+h2{
+    background-color: royalblue;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.container{
+      border: 2px solid orange;
+    display: flex;
+    height: 270px;
+    justify-content: center;
+    padding: 5px;
+    width: 850px;
+    margin:0px auto 0px auto; 
+}
+#show{
+    margin:15px auto 0px auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+#show th{
+    background-color: aliceblue;
+}
+#show td{
+    text-align: center;
+    padding: 1px;
+
+}
+#add{
+    width: 80px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    background-color:rgb(175, 223, 175)
+}
+input{
+    outline-width: 1px;
+    width: 150%;
+    padding: 2px;
+}

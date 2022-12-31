@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body id="body">
+    <h2><u>Form :</u></h2>
+    <div class="container">
+        <form action="#" autocomplete="off">
+        <table>
+            <thead>
+            </thead>
+            
+            <tbody>
+                <tr><th>First name :</th><td><input type="text" id="fname" name="fname"></td></tr>
+                <tr><th>Last Name :</th> <td><input type="text" id="lname" name="lname"></td></tr>
+                <tr><th>Address :</th> <td><input type="text" id="address" name="address"></td></tr>
+                <tr><th>Gender :</th> <td><select name="gender" id="gender">
+                    <option value=""></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Feale</option>
+
+                </select>
+                </td>
+            </tr>
+                <tr><th>Age :</th> <td><input type="text" id="age" name="name"></td></tr>
+                <tr><th>Pincode :</th><td><input type="text" name="pincode" id="pincode"></td></tr>
+                <tr><th><label for="food">Choice of Food:</label></th> <td>
+                    <select name="food" id="food">
+                        <option value=""></option>
+                        <option value="Idly">Idly</option>
+                        <option value="Dosa">Dosa</option>
+                        <option value="Pongal">Pongal</option>
+                        <option value="Rice">Rice</option>
+                        <option value="Briyani">Briyani</option>
+                    </select>
+                </td></tr>
+                <tr><th>State :</th><td><input type="text" id="state" name="state"></td></tr>
+                <tr><th>Country :</th><td><input type="text" id="country" name="country"></td></tr>
+                <tr><th></th><td><input type="reset" value="Add" id="add" onclick="submitform()"></td></tr>
+
+
+            </tbody>
+        </table>
+        </form>        
+    </div>
+
+    <div>
+        <table border="1px" id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Pincode</th>
+                    <th>Food</th>
+                    <th>State</th>
+                    <th>Country</th>
+
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script src="./form.js"></script>
+</body>
+</html>
